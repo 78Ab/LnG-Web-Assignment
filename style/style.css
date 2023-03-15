@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.navbar {
+    background-color: #ececec;
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo {
+    height: 70px;
+    width: 92px;
+}
+
+.nav-item {
+    border-right: 2px solid #4d4d4d;
+    padding: 0px 15px;
+
+}
+
+.nav-link {
+    padding: 0px !important;
+}
+
+.nav {
+    background-color: #510505;
+}
+
+.navfont {
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+.banner {
+    position: relative;
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.bannertext {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    color: #d52037;
+    font-size: 24px;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 15px 40px;
+
+}
+
+.button:focus {
+    outline: none;
+}
+
+.heading {
+    font-size: 36px;
+    color: #d52037;
+    text-align: center;
+    font-weight: 600;
+}
+
+.learn {
+    color: #d52037;
+}
+
+.form {
+    background-color: #e4e4e4;
+
+}
+
+.submit {
+    background-color: #db1e36;
+    font-size: 18px;
+    font-weight: 18px;
+    padding: 10px 60px;
+}
+
+.map {
+    border-radius: 4px;
+    padding: 2px;
+    margin: 15pxpx;
+}
+
+.foot {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px
+}
+
+.foot1 {
+    background-color: #cecece;
+}
+
+@media screen and (max-width:991px) {
+    .nav-item {
+        border-right: 0px;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+}
+
+.modhead {
+    background-color: #db1e36;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+}
